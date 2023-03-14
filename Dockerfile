@@ -59,3 +59,4 @@ ENV LANG en_US.UTF-8`
 
 COPY ./www /var/www/html
 EXPOSE 80
+CMD ["apachectl", "-D", "FOREGROUND"]
